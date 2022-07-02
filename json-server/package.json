@@ -1,0 +1,17 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "json-server --watch db.json --port 9000",
+    "start:en": "json-server --watch db-en.json --port 9000"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "json-server": "^0.16.1"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

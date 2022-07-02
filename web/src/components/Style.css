@@ -1,0 +1,145 @@
+.Title {
+    color: rgb(5, 151, 248);
+    margin-top: 6%;
+    margin-bottom: 3%;
+    text-align: center;
+    font-size: 300%;
+    font-weight: light;
+
+}
+
+#TripTitle a {
+    color: rgb(6, 93, 185);
+    filter: drop-shadow(1px 2px 1px rgba(151, 188, 245, 0.872));
+    text-decoration: none;
+}
+#TripTitle button {
+    color: rgb(9, 14, 21);
+    text-decoration: none;
+    font-weight: bold;
+    border: white;
+}
+#TripTitle a:hover {
+    color: rgb(11, 67, 127);
+    font-weight: bolder;
+    filter: drop-shadow(1px 2px 1px rgba(151, 188, 245, 0.872));
+}
+.SearchBar input {
+    width: 300px;
+    height: 25px;
+    border-color: bottom rgb(143, 20, 20) ;
+}
+.Search {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.lang {
+    width: 15%;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+.Search input {
+    border-left: 0px solid;
+    border-right: 0px solid;
+    border-top: 0px solid;
+    border-bottom: 1px solid rgb(131, 129, 129);
+    text-align: center;
+    font-size: medium;
+    width: 400px;
+    height: 50px;
+}
+.Search input:focus {
+    outline:none;
+}
+
+.input {
+    margin-left: 10px;
+}
+
+
+.renderTrip {
+    color: #000;
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-width: 0px;
+    border-radius: 15px;
+    border-style: solid ;
+    box-shadow: drop-shadow(5px 5px 5px  #021e3c);
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.show-img img {
+    width: 350px;
+    height: 400px;
+    margin-right: 100px;
+}
+.show-img {
+    margin-right: 30px;
+}
+.renderTrip img {
+
+    object-fit: cover;
+    border-radius: 10%;
+    margin: 3%;
+    filter: drop-shadow(2px 2px 3px  rgba(151, 188, 245, 0.872));
+}
+.description {
+    text-align: left;
+    margin-left: 20px;
+    border-style: solid ;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border-width: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.size {
+    size: 10%;
+}
+
+.read {
+    color: rgb(15, 63, 126);
+}
+
+.read:hover {
+    color: rgb(91, 112, 140);
+}
+.category {
+    color: rgb(91, 112, 140);
+}
+
+.group a {
+    margin-right: 2px;
+}
+.group {
+    color: rgb(91, 112, 140);
+    text-decoration: none;
+}
+
+.group:hover {
+    color: rgb(15, 63, 126);
+    font-weight: bold;
+
+}
+#photos-id img {
+    width: 250px;
+    height: 200px;
+    margin-right: 10px;
+}
+.photos-album {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
